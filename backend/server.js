@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 app.use(cors({
     // origin: "https://entertainment-1-jcso.onrender.com",
-    origin:"http://localhost:3000",
+    origin:"https://entertainment-app-vercel-m24q.vercel.app/",
 
     methods: ['GET', 'POST', 'PUT', 'DELETE' ],
     credentials: true,
